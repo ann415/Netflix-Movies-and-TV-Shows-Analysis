@@ -43,6 +43,12 @@ _(To be filled after analysis)_
 
 ## 📁 Project Structure
 
+Netflix-Movies-and-TV-Shows-Analysis/
+│
+├── data/                  # Original dataset (e.g., netflix_titles.csv)
+├── sql/                   # SQL queries used for analysis
+├── outputs/               # Charts, tables, or exported query results
+├── README.md              # Project overview and documentation
 
 ---
 
