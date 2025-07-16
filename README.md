@@ -24,7 +24,7 @@ An SQL-based data analysis project on Netflix titles to uncover insights about p
 
 ## 🛠 Tools Used
 
-- SQL (MySQL)  
+- BigQuery (for SQL)  
 - Python, Tableau (for visualization, optional)  
 - GitHub  
 
