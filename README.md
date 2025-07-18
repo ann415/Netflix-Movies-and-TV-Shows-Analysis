@@ -25,7 +25,7 @@ An SQL-based data analysis project on Netflix titles to uncover insights about p
 ## 🛠 Tools Used
 
 - BigQuery (for SQL)  
-- Python, Tableau (for visualization, optional)  
+- Python, Tableau (for visualization)  
 - GitHub  
 
 ---
@@ -38,26 +38,3 @@ _(To be filled after analysis)_
 - 🌍 Country with most titles: `...`  
 - ⏳ TV shows are generally `...` longer than movies  
 - 📈 Content release peaked in year `...`  
-
----
-
-## 📁 Project Structure
-
-Netflix-Movies-and-TV-Shows-Analysis/
-│
-├── data/                  # Original dataset (e.g., netflix_titles.csv)
-├── sql/                   # SQL queries used for analysis
-├── outputs/               # Charts, tables, or exported query results
-├── README.md              # Project overview and documentation
-
----
-
-## 📈 Sample Queries
-
-```sql
--- Top 10 most frequent actors
-SELECT actor, COUNT(*) AS appearances
-FROM ...
-GROUP BY actor
-ORDER BY appearances DESC
-LIMIT 10;
