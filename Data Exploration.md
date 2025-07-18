@@ -38,13 +38,11 @@ This document contains exploratory analysis conducted using SQL on BigQuery.
 
 ---
 
----
-
 ## Top Directors and Country Distribution
 
 ### Top 10 Most Frequent Directors (Excluding Nulls)
 
-We initially found that over 2,600 entries lacked a `director` field. After filtering those out, the top 10 most frequent directors in the dataset are:
+I found that over 2,600 entries lacked a `director` field. After filtering those out, the top 10 most frequent directors in the dataset are:
 
 | Director                      | Frequency |
 |------------------------------|-----------|
@@ -59,7 +57,7 @@ We initially found that over 2,600 entries lacked a `director` field. After filt
 | Youssef Chahine              | 12        |
 | Steven Spielberg             | 11        |
 
-> **Insight**: Several directors are known for producing region-specific content (e.g., Indian animation or stand-up comedy), highlighting Netflix’s push for regional diversity.
+**Insight:** ...
 
 ---
 
@@ -88,7 +86,7 @@ We initially found that over 2,600 entries lacked a `director` field. After filt
 | United States, Canada       | 73           |
 | Germany                     | 67           |
 
-> **Insight**: The United States dominates Netflix’s library, but India and other non-Western countries have a strong presence—likely due to localization strategies and regional productions.
+**Insight:** The United States dominates Netflix’s library, but India and other non-Western countries have a strong presence too, likely due to their marketing strategies and regional productions.
 
 ---
 
@@ -107,12 +105,12 @@ The number of releases by `release_year` shows Netflix’s rapid content growth 
 | 2015 | 560             |
 | 2016 | 902             |
 | 2017 | 1,032           |
-| 2018 | **1,147**       |
+| **2018** | **1,147**       |
 | 2019 | 1,030           |
 | 2020 | 953             |
 | 2021 | 592             |
 
-> **Insight**: Content production peaked in 2018, with over 1,100 releases. While 2020 saw a dip likely due to the pandemic, Netflix still released over 950 titles that year.
+**Insight:** Content production peaked in 2018, with over 1,100 releases. 2020 saw a dip likely due to the pandemic, however, Netflix still released over 950 titles that year.
 
 ---
 
