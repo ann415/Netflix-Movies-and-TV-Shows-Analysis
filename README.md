@@ -33,6 +33,3 @@ An SQL-based data analysis project on Netflix titles to analyse insights on popu
 ## Key Insights
 
 _(To be filled after analysis)_   
-- 🎬 Most frequent director: `...`  
-- 🌍 Country with most titles: `...`   
-- 📈 Content release peaked in year `...`  
