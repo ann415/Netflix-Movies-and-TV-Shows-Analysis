@@ -57,8 +57,6 @@ I found that over 2,600 entries lacked a `director` field. After filtering those
 | Youssef Chahine              | 12        |
 | Steven Spielberg             | 11        |
 
-**Insight:** ...
-
 ---
 
 ###  Top 20 Countries Producing Netflix Content
