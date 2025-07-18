@@ -4,7 +4,7 @@ An SQL-based data analysis project on Netflix titles to analyse insights on popu
 
 ---
 
-## 📌 Dataset
+## Dataset
 
 - **Source:** [Kaggle - Netflix Movies and TV Shows](https://www.kaggle.com/datasets/shivamb/netflix-shows)
 - **Columns:**
@@ -12,9 +12,9 @@ An SQL-based data analysis project on Netflix titles to analyse insights on popu
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
-- Identify the most frequent actors and directors featured on Netflix
+- Identify the most frequent directors featured on Netflix
 - Analyze trends in movie and TV show releases over time
 - Examine country-wise content distribution
 - Explore common genres and their popularity
@@ -22,7 +22,7 @@ An SQL-based data analysis project on Netflix titles to analyse insights on popu
 
 ---
 
-## 🛠 Tools Used
+## Tools Used
 
 - BigQuery (for SQL)  
 - Python, Tableau (for visualization)  
@@ -30,11 +30,9 @@ An SQL-based data analysis project on Netflix titles to analyse insights on popu
 
 ---
 
-## 🧠 Key Insights
+## Key Insights
 
-_(To be filled after analysis)_  
-- 🎭 Top actor: `...`  
+_(To be filled after analysis)_   
 - 🎬 Most frequent director: `...`  
-- 🌍 Country with most titles: `...`  
-- ⏳ TV shows are generally `...` longer than movies  
+- 🌍 Country with most titles: `...`   
 - 📈 Content release peaked in year `...`  
