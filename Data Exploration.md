@@ -11,7 +11,7 @@ This document contains exploratory analysis conducted using SQL on BigQuery.
 | TV Show  | 2,676  |
 | Movie    | 6,131  |
 
-**Insight:** Netflix has significantly more movies than TV shows (~70%).
+**Insight:** Netflix has significantly more movies than TV shows (more than double).
 
 ---
 
