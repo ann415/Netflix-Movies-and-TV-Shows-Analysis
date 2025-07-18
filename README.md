@@ -17,15 +17,12 @@ An SQL-based data analysis project on Netflix titles to analyse insights on popu
 - Identify the most frequent directors featured on Netflix
 - Analyze trends in movie and TV show releases over time
 - Examine country-wise content distribution
-- Explore common genres and their popularity
-- Compare content duration across media types
 
 ---
 
 ## Tools Used
 
 - BigQuery (for SQL)  
-- Python, Tableau (for visualization)  
 - GitHub  
 
 ---
