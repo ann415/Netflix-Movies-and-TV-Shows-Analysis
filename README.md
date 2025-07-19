@@ -30,4 +30,24 @@ An SQL-based data analysis project on Netflix titles to analyse insights on popu
 
 ## Key Insights
 
-_(To be filled after analysis)_   
+### Type Distribution
+- Netflix hosts more **Movies** than **TV Shows**.
+
+### Missing Data Checks
+- **TV Shows** have more missing values in `director` and `cast` fields compared to movies.
+- Data gaps may affect actor/director-level analysis and should be cleaned in future work.
+
+### Top 10 Directors
+- **Raúl Campos** and **Marcus Raboy** are among the most frequently appearing directors, likely due to involvement in multiple comedy specials and TV shows.
+
+### Top 20 Producing Countries
+- **United States** leads with the most content, followed by **India**, **United Kingdom**, **Canada**, and others.
+
+### Yearly Content Releases
+- Rapid growth in Netflix content occurred between **2015–2019**, stabilizing slightly thereafter.
+
+### Rating Distribution
+- Most content falls under **TV-MA** and **TV-14**, showing a focus on mature audiences.
+
+---
+  
