@@ -112,3 +112,28 @@ The number of releases by `release_year` shows Netflix’s rapid content growth 
 
 ---
 
+---
+
+## Rating Distribution
+
+| Rating      | Total |
+|-------------|-------|
+| TV-MA       | 3,207 |
+| TV-14       | 2,160 |
+| TV-PG       | 863   |
+| R           | 799   |
+| PG-13       | 490   |
+| TV-Y7       | 334   |
+| TV-Y        | 307   |
+| PG          | 287   |
+| TV-G        | 220   |
+| NR          | 80    |
+| G           | 41    |
+| TV-Y7-FV    | 6     |
+| NC-17       | 3     |
+| UR          | 3     |
+
+**Insight:** Majority of the content is rated **TV-14 or higher**, indicating Netflix's focus on adult and teen audiences. Kid-friendly content, makes up a smaller portion of the catalog.
+
+---
+
