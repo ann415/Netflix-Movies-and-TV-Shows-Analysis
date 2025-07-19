@@ -54,5 +54,23 @@ LIMIT 20;
 #Yearly releases
 SELECT release_year, COUNT(*) as totalNo
 FROM `annular-haven-465814-v8.netflix_analysis.netflix_titles`
+
+#Rating Distribution across Netflix
+SELECT 
+  rating, 
+  COUNT(*) AS total
+FROM `annular-haven-465814-v8.netflix_analysis.netflix_titles`
+GROUP BY rating
+ORDER BY total DESC;
+
+#Cleaning up duration entries in rating
+SELECT 
+  rating, 
+  COUNT(*) AS total
+FROM `annular-haven-465814-v8.netflix_analysis.netflix_titles`
+WHERE rating IS NOT NULL
+  AND NOT REGEXP_CONTAINS(rating, r'\d+ min')
+GROUP BY rating
+ORDER BY total DESC;
 GROUP BY release_year
 ORDER BY release_year;
