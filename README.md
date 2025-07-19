@@ -38,7 +38,7 @@ An SQL-based data analysis project on Netflix titles to analyse insights on popu
 - Data gaps may affect actor/director-level analysis and should be cleaned in future work.
 
 ### Top 10 Directors
-- **Raúl Campos** and **Marcus Raboy** are among the most frequently appearing directors, likely due to involvement in multiple comedy specials and TV shows.
+- **Rajiv Chilaka** tops the list, directing 19 titles, mostly children's animated shows like *Chhota Bheem*, which are split into multiple entries in the dataset. This significantly contributes to his high count.
 
 ### Top 20 Producing Countries
 - **United States** leads with the most content, followed by **India**, **United Kingdom**, **Canada**, and others.
