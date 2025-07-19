@@ -17,6 +17,7 @@ An SQL-based data analysis project on Netflix titles to analyse insights on popu
 - Identify the most frequent directors featured on Netflix
 - Analyze trends in movie and TV show releases over time
 - Examine country-wise content distribution
+- Analyse rating distribution across Netflix
 
 ---
 
