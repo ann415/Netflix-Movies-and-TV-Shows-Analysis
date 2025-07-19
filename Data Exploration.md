@@ -1,4 +1,4 @@
-# 🔍 Data Exploration: Netflix Movies & TV Shows
+# 🔍 Data Exploration: Netflix Movies and TV Shows
 
 This document contains exploratory analysis conducted using SQL on BigQuery.
 
