@@ -35,26 +35,3 @@ You can view the project presentation [here](https://drive.google.com/file/d/1gn
 It summarizes the data exploration process, key visualizations, and insights drawn from the Netflix dataset.
 
 ---
-
-## Key Insights
-
-### Type Distribution
-- Netflix hosts more **Movies** than **TV Shows**.
-
-### Missing Data Checks
-- **TV Shows** have more missing values in `director` and `cast` fields compared to movies.
-- Data gaps may affect actor/director-level analysis and should be cleaned in future work.
-
-### Top 10 Directors
-- **Rajiv Chilaka** tops the list, directing 19 titles, mostly children's animated shows like *Chhota Bheem*, which are split into multiple entries in the dataset. This significantly contributes to his high count.
-
-### Top 20 Producing Countries
-- **United States** leads with the most content, followed by **India**, **United Kingdom**, **Canada**, and others.
-
-### Yearly Content Releases
-- Rapid growth in Netflix content occurred between **2015–2019**, stabilizing slightly thereafter.
-
-### Rating Distribution
-- Most content falls under **TV-MA** and **TV-14**, showing a focus on mature audiences.
-
----
