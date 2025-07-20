@@ -1,6 +1,6 @@
 # 🎬 Netflix Movies and TV Shows Analysis
 
-An SQL-based data analysis project on Netflix titles to analyse insights on popular actors, directors, genres, and trends over time.
+An SQL and Python-based data analysis project on Netflix titles to analyse insights on popular actors, directors, genres, and trends over time.
 
 ---
 
