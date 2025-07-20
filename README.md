@@ -31,7 +31,7 @@ An SQL-based data analysis project on Netflix titles to analyse insights on popu
 ---
 
 ## Project Presentation
-You can view the project presentation [here](https://drive.google.com/file/d/1gnVt3_ErkZYvKjE1lzPglHjIs4nMEKIq/view?usp=sharing).  
+The project presentation can be viewed [here](https://drive.google.com/file/d/1gnVt3_ErkZYvKjE1lzPglHjIs4nMEKIq/view?usp=sharing).  
 It summarizes the data exploration process, key visualizations, and insights drawn from the Netflix dataset.
 
 ---
