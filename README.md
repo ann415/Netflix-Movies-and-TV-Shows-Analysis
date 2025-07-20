@@ -31,7 +31,7 @@ An SQL and Python-based data analysis project on Netflix titles to analyse insig
 ---
 
 ## Project Presentation
-The project presentation can be viewed [here](https://drive.google.com/file/d/1gnVt3_ErkZYvKjE1lzPglHjIs4nMEKIq/view?usp=sharing).  
+The project presentation can be viewed [here](./Presentation- Netflix Movies & TV Shows Analysis.pdf).  
 It summarizes the data exploration process, key visualizations, and insights drawn from the Netflix dataset.
 
 ---
