@@ -1,6 +1,6 @@
 --Viewing 20 records from the table
 SELECT *
-FROM `annular-haven-465814-v8.netflix_analysis.netflix_titles` 
+FROM `annular-haven-465814-v8.netflix_analysis.netflix_titles` --project.dataset.table
 LIMIT 20;
 
 --Count of TV Shows vs Movies
