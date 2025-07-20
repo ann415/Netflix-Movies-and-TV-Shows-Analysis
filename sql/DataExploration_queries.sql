@@ -75,5 +75,3 @@ WHERE rating IS NOT NULL
   AND NOT REGEXP_CONTAINS(rating, r'\d+ min')
 GROUP BY rating
 ORDER BY total DESC;
-GROUP BY release_year
-ORDER BY release_year;
