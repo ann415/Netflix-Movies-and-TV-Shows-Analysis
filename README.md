@@ -23,7 +23,9 @@ An SQL-based data analysis project on Netflix titles to analyse insights on popu
 
 ## Tools Used
 
-- BigQuery (for SQL)  
+- BigQuery (for SQL)
+- Python (for visualization)
+- Canva (for presentation)  
 - GitHub  
 
 ---
