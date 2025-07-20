@@ -1,21 +1,21 @@
-#Viewing 20 records from the table
+--Viewing 20 records from the table
 SELECT *
 FROM `annular-haven-465814-v8.netflix_analysis.netflix_titles` 
 LIMIT 20;
 
-#Count of TV Shows vs Movies
+--Count of TV Shows vs Movies
 SELECT type, COUNT(*) AS total
 FROM `annular-haven-465814-v8.netflix_analysis.netflix_titles`
 GROUP BY type;
 
-#Checking for missing directors, cast, country
+--Checking for missing directors, cast, country
 SELECT
   COUNTIF(director IS NULL OR director = '') AS missing_directors,
   COUNTIF(`cast` IS NULL OR `cast` = '') AS missing_cast,
   COUNTIF(country IS NULL OR country = '') AS missing_country
 FROM `annular-haven-465814-v8.netflix_analysis.netflix_titles`;
 
-#Checking for missing directors, cast, country for TV SHows and Movies
+--Checking for missing directors, cast, country for TV SHows and Movies
 SELECT
   type,
   COUNTIF(director IS NULL OR director = '') AS missing_directors,
@@ -24,7 +24,7 @@ SELECT
 FROM `annular-haven-465814-v8.netflix_analysis.netflix_titles`
 GROUP BY type;
 
-#Finding the top 10 most frequent directors
+--Finding the top 10 most frequent directors
 SELECT
   director, COUNT(*) as frequency
 FROM `annular-haven-465814-v8.netflix_analysis.netflix_titles`
@@ -32,7 +32,7 @@ GROUP BY director
 ORDER BY frequency desc
 LIMIT 10;
 
-#Since there are around 2.5k null values for directors we are going to add a where clause
+--Since there are around 2.5k null values for directors we are going to add a where clause
 SELECT
   director, COUNT(*) as frequency
 FROM `annular-haven-465814-v8.netflix_analysis.netflix_titles`
@@ -41,7 +41,7 @@ GROUP BY director
 ORDER BY frequency desc
 LIMIT 10;
 
-#Top 20 countries producing movies and TV shows
+--Top 20 countries producing movies and TV shows
 SELECT 
  country, 
  count(*) as totalNo
@@ -51,11 +51,14 @@ GROUP BY country
 ORDER BY totalNo desc
 LIMIT 20;
 
-#Yearly releases
+--Yearly releases
 SELECT release_year, COUNT(*) as totalNo
 FROM `annular-haven-465814-v8.netflix_analysis.netflix_titles`
+WHERE release_year >= 2000
+GROUP BY release_year
+ORDER BY release_year;
 
-#Rating Distribution across Netflix
+--Rating Distribution across Netflix
 SELECT 
   rating, 
   COUNT(*) AS total
@@ -63,7 +66,7 @@ FROM `annular-haven-465814-v8.netflix_analysis.netflix_titles`
 GROUP BY rating
 ORDER BY total DESC;
 
-#Cleaning up duration entries in rating
+--Cleaning up duration entries in rating
 SELECT 
   rating, 
   COUNT(*) AS total
