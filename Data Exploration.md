@@ -57,6 +57,8 @@ I found that over 2,600 entries lacked a `director` field. After filtering those
 | Youssef Chahine              | 12        |
 | Steven Spielberg             | 11        |
 
+**Insight:** **Rajiv Chilaka** tops the list, directing 19 titles, mostly children's animated shows like *Chhota Bheem*, which are split into multiple entries in the dataset. This significantly contributes to his high count.
+
 ---
 
 ###  Top 20 Countries Producing Netflix Content
@@ -109,8 +111,6 @@ The number of releases by `release_year` shows Netflix’s rapid content growth 
 | 2021 | 592             |
 
 **Insight:** Content production peaked in 2018, with over 1,100 releases. 2020 saw a dip likely due to the pandemic, however, Netflix still released over 950 titles that year.
-
----
 
 ---
 
